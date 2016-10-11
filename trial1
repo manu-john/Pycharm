@@ -1,0 +1,12 @@
+import sys
+import re
+
+print("Hello World ")
+print("")
+x = input()
+y= re.search(r'[a-z]{4}',x)
+print("You entered : ", x, end='')
+
+print("")
+print(y)
+
